@@ -8,7 +8,7 @@ def calculate():
     username = None
     error = None
     
-    if request.method == 'GET':
+    if request.method == 'POST':
         try:
             username = request.form['username']
             microscope_size = float(request.form['microscope_size'])
